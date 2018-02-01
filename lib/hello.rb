@@ -11,3 +11,5 @@ end
 hello_t(["Tim", "Tom", "Jim"]).each do |name|
   if name.starts_with?("T")
     puts "Hello, #{name}"
+  end
+end
